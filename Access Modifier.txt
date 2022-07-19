@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Modifier {
+  static class default3{
+	  void define(){
+		  System.out.println("This is type of default modifier");
+	  }
+  }
+  static class private2{
+	  private String Name;
+	  public String get_name() {
+		  System.out.println("it is public modifier: ");
+		  return this.Name;
+	  }
+	  protected void set_name(String Name) {
+		  System.out.println("it is protected modifier: ");
+		  this.Name=Name;
+	  }
+  }
+  public static void main(String args[]) {
+	  Scanner obj=new Scanner(System.in);
+	  System.out.println("name: ");
+	  String k=obj.nextLine();
+	  private2 l=new private2();
+	  System.out.println("name is private");
+	  l.set_name(k);
+	  System.out.println("name "+l.get_name());
+	  default3 u=new default3();
+	  u.define();
+  }
+}
+

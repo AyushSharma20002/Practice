@@ -1,0 +1,26 @@
+class operation {
+	int a,b,sum;
+     operation(){
+    	 System.out.println("operation done successfully");
+     }
+//     operation(int x,int y){
+//    	 a=x;
+//    	 b=y;
+//     }
+     void setvalue(int x,int y) {
+    	 a=x;
+    	 b=y;
+     }
+     void add() {
+    	 sum=a+b;
+     }
+     void display() {
+    	 System.out.println("addition of two number is :"+sum);
+     }
+     public static void main(String args[]) {
+    	 operation r=new operation();
+    	 r.setvalue(3,4);
+    	 r.add();
+    	 r.display();
+     }
+}

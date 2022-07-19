@@ -1,0 +1,28 @@
+
+public class Typecasting {
+   public static void main(String args[]) {
+	   byte a=1;
+	   int b=a;        //implicit casting
+	   System.out.println("value of a:\n"+a);
+	   
+	   int c=2;
+	   byte d=(byte)c;   //explicit casting
+	   System.out.println("value of d:\n"+d);
+	   
+	   short e=20;
+	   int f=e;         //implicit casting
+	   System.out.println("value of f:\n"+f);
+	   
+	   long g=100000;
+	   int h=(int)g;    //explicit casting
+	   System.out.println("value of h:\n"+h);
+	   
+	   int i=20;
+	   float r=i;     //implicit casting
+	   System.out.println("Value of r:\n"+r);
+	   
+	   int j=10;
+	   short k=(short)j;  //explicit casting
+	   System.out.println("Value of k:\n"+k);
+   }
+}
