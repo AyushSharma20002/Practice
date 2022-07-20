@@ -1,0 +1,36 @@
+package Practice;
+
+import java.util.*;
+
+public  class Collection{
+
+	public static void main(String[] args) {
+		System.out.println("ArrayList");
+		ArrayList<String> city=new ArrayList<String>();   
+	      city.add("pune");
+	      city.add("new delhi");
+	      city.add("goa");
+	      System.out.println(city);  
+		
+	      
+	      System.out.println("Vector");
+	      Vector<Integer> vec = new Vector();
+	      vec.addElement(2); 
+	      vec.addElement(6);
+	      vec.addElement(9);
+	      vec.addElement(23);
+	      System.out.println(vec);
+		
+		
+	      System.out.println("LinkedList");
+	      LinkedList<String> names=new LinkedList<String>();  
+	      names.add("Aakash");  
+	      names.add("Ashish");
+	      names.add("adtiya");
+	      Iterator<String> itr=names.iterator();  
+	      while(itr.hasNext()){  
+	       System.out.println(itr.next());  
+	       
+	      }
+	      }  
+	}
