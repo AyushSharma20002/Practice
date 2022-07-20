@@ -1,0 +1,30 @@
+package Practice;
+import java.util.*;
+public class Stringbufferandbuilder {
+    public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				String str1 = "Welcome to Java Training";
+				String str2 = new String("Welcome to Java Training");
+				System.out.println(str1);
+				System.out.println(str2);
+				System.out.println(str1.length());
+				System.out.println(str2.length());
+				System.out.println(str2.toUpperCase());
+				System.out.println(str2.toLowerCase());
+				System.out.println(str2.substring(2));
+				System.out.println(str2.substring(2,10));
+				System.out.println(str2.indexOf('a'));
+				System.out.println(str2.lastIndexOf('a'));
+				
+			
+			  StringBuffer s1=new Stringbuffer("welcome to java");
+			  s1.append("start yout learning");
+			  System.out.println(s1);
+			  
+			  StringBuilder s2=new StringBuilder("welcome to java");
+			  s2.append("start yout learning");
+			  System.out.println(s2);
+				
+    }
+}
