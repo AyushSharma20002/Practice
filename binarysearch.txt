@@ -1,0 +1,36 @@
+package section5;
+
+class binarysearch {
+
+    int binarySearch(int arr[], int x)
+    {
+        int first = 0, last = arr.length - 1;
+        while (first <= last) {
+            int mid = first + (last - first) / 2;
+            if (arr[mid] == x) {
+                return mid;
+            }
+            if (arr[mid] < x) {
+                first = mid + 1;
+            }
+            else {
+                last = mid - 1;
+            }
+        }
+        return -1;
+    }
+  
+    public static void main(String args[])
+    {
+        binarysearch ob = new binarysearch();
+        int arr[] = {5,10,15,20,25,30};
+        int n = arr.length;
+        int x = 20;
+        int result = ob.binarySearch(arr, x);
+        if (result == -1)
+            System.out.println("Element not present");
+        else
+            System.out.println("Element found at "
+                               + "index " + result);
+    }
+}
