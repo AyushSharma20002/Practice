@@ -1,0 +1,25 @@
+package section4;
+
+public class arrayrotation {
+
+	public  void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = { 5,4,8,3,1,7,6 };
+        int N = arr.length;
+        int d = 2;
+        int k = 1;
+        while (k <= d) {
+            int last = arr[0];
+            for (int i = 0; i < N - 1; i++) {
+                arr[i] = arr[i + 1];
+            }
+            arr[N - 1] = last;
+            k++;
+        }
+ 
+        for (int i = 0; i < N; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+	}
+}

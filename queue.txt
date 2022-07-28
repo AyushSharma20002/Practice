@@ -1,0 +1,20 @@
+package section4;
+import java.util.*;
+
+public class queue1
+{
+public static void main(String[] args) 
+{
+        		Queue<String>qq = new LinkedList<>();
+                qq.add("ashish");
+        		qq.add("aakash");
+        		qq.add("pawan");
+        		qq.add("ritik");
+        		qq.add("lokesh");
+                System.out.println(qq);
+        		System.out.println(qq.peek());
+        		qq.remove();
+        		System.out.println(qq);
+        		System.out.println(qq.size());
+    	}
+}
