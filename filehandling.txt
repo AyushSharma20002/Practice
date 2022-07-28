@@ -1,0 +1,38 @@
+package section3;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+public class FileHandlingMechanisms {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		  DataInputStream dis=new DataInputStream(System.in);
+//		  PrintStream ps=System.out;
+//		  ps.println("Enter the name");
+//		  String name=dis.readLine();
+//		  ps.println("your name is "+name);
+		  
+		  //taking the value through keywoard and store in file
+//		  DataInputStream dis=new DataInputStream(System.in);
+//		  FileOutputStream fos=new FileOutputStream("abc.txt");
+//		  int ch;
+//		  System.out.println("enter the data");
+//		  while((ch=dis.read())!='@') {
+//			  fos.write(ch);
+//		  }
+//		  fos.close();
+//		  System.out.println("data store");
+		  //copy from one file to another
+//		  FileInputStream fis=new FileInputStream("abc.txt");
+//		  FileOutputStream fos=new FileOutputStream("demo.txt");
+//		  int ch;
+//		  while((ch=fis.read())!=-1) {
+//			  fos.write(ch);
+//		  }
+//		  fis.close();
+//		  fos.close();
+//		  System.out.println("file copied");
+    	   
+       }
+	}
